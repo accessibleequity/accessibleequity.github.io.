@@ -1,1 +1,2 @@
-# accessibleequity.github.io.
+# accessibleequity.com
+https://accessibleequity.com
