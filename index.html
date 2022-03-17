@@ -29,11 +29,35 @@
             <div class="description">
                 Accessible Equity partners with world class real estate private equity funds to offer investment opportunities - typically reserved for high net worth individuals, family offices, and institutional investors - directly to your employees.
             </div>
-            <form class="cta">
+            <form id="form" class="cta">
                 <input type="text" placeholder="Work email">
                 <input type="submit" value="Learn More">
             </form>
+            <div id="success">
+                Thanks for joining the waitlist! We'll be in touch soon.
+            </div>
         </div>
     </div>
+    <script type="text/javascript">
+        var email = "";
+
+        function saveEmail(event) {
+            event.preventDefault();
+            form.style.display = "none";
+            success.style.display = "flex";
+        }
+
+        function updateValue(event) {
+            email = event.target.value;
+        }
+
+        const input = document.querySelector('input');
+        const form = document.getElementById('form');
+        const success = document.getElementById('success');
+
+        input.addEventListener('input', updateValue);
+        form.addEventListener('submit', saveEmail);
+        
+    </script>
 </body>
 </html>
