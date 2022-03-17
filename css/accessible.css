@@ -73,6 +73,71 @@ a.book-call {
   text-align: center;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+  height: 70%;
+  margin-left: 10%;
+  width: 65%;
+  justify-content: center;
+}
+
+.title {
+  width: 100%;
+  font-size: 5vw;
+  line-height: 120%;
+}
+
+.byline {
+  margin-top: 30px;
+  font-size: 1.75vw;
+}
+
+.description {
+  margin-top: 10px;
+  font-family: "Almarena";
+  line-height: 140%;
+  width: 70%;
+}
+
+.cta {
+  margin-top: 40px;
+  margin-left: 5px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  width: 350px;
+  height: 40px;
+}
+
+input {
+  background: none;
+  border: none;
+  height: 100%;
+}
+
+input[type="text"] {
+  width: 190px;
+  margin: 0px;
+  margin-top: 0px;
+  outline: 0;
+  display: inline;
+  padding: 0 0 0 21px;
+}
+
+input[type="submit"] {
+  text-align: center;
+  font-family: "Almarena Display";
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  width: 130px;
+  height: 32px;
+  display: inline;
+  vertical-align: middle;
+}
+
 a {
   text-decoration: none;
   color: #ffffff;
